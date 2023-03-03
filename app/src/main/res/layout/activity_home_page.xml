@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activities.HomePage">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/half_horizontal_guide"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/second_horizontal_guide"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.9" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vertical_guide"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.8" />
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:iconifiedByDefault="false"
+        android:queryHint="Search for movies ..."
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/half_horizontal_guide"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_weight="1" />
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/search_et"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="80dp"-->
+    <!--        android:hint="@string/search_str"-->
+    <!--        android:inputType="textEmailAddress"-->
+    <!--        android:textAllCaps="false"-->
+    <!--        android:textSize="15sp"-->
+    <!--        android:layout_marginTop="5dp"-->
+    <!--        android:layout_marginBottom="10dp"-->
+    <!--        android:layout_marginStart="25dp"-->
+    <!--        app:layout_constraintBottom_toTopOf="@+id/half_horizontal_guide"-->
+    <!--        app:layout_constraintLeft_toLeftOf="parent"-->
+    <!--        app:layout_constraintRight_toLeftOf="@id/vertical_guide"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:layout_constraintVertical_weight="1" />-->
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/addStory_publishedDate_btn"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="40dp"-->
+    <!--        android:background="@drawable/ic_baseline_search_24"-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        android:layout_marginBottom="20dp"-->
+    <!--        android:layout_marginStart="15dp"-->
+    <!--        android:layout_marginEnd="30dp"-->
+    <!--        app:layout_constraintBottom_toTopOf="@+id/half_horizontal_guide"-->
+    <!--        app:layout_constraintLeft_toRightOf="@id/vertical_guide"-->
+    <!--        app:layout_constraintRight_toRightOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/allMovies_recyclerView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/second_horizontal_guide"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/half_horizontal_guide" />
+
+    <Button
+        android:id="@+id/addMovie_btn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/red"
+        android:text="@string/addMovie_str"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/second_horizontal_guide"
+        app:layout_constraintVertical_weight="1" />
+</androidx.constraintlayout.widget.ConstraintLayout>

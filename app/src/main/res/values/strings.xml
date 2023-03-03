@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">Movie Library</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="welcome_text">Welcome to Movie Library</string>
+    <string name="username_str">Username</string>
+    <string name="password_str">Password</string>
+    <string name="signIn_str">Sign In</string>
+    <string name="signUp_str">Sign Up</string>
+    <string name="signupFailed">Failed sign up.</string>
+    <string name="firstName_str">First Name</string>
+    <string name="lastName_str">Last Name</string>
+    <string name="confPass_str">Confirmation Password</string>
+    <string name="gender_str">Gender</string>
+    <string name="male_str">Male</string>
+    <string name="female_str">Female</string>
+    <string name="sendMsg_str">Send Message to</string>
+    <string name="sms_str">SMS</string>
+    <string name="desc_str">Description</string>
+    <string name="genre_str">Genre</string>
+    <string name="rate_str">Rate</string>
+    <string name="year_str">Year</string>
+    <string name="welcome_str">Welcome</string>
+    <string name="allStories_str">All Stories</string>
+    <string name="import_str">Import &amp; Export</string>
+    <string name="imports_str">Import</string>
+    <string name="exports_str">Export</string>
+    <string name="export_file_name">Exported_File</string>
+    <string name="invalidFilePath">Path doesn\'t exist in importing</string>
+    <string name="importFailedPermission">Permission isn\'t allowed for importing</string>
+    <string name="exportFailedPermission">Permission isn\'t allowed for exporting</string>
+    <string name="importSuccess">File imported successful</string>
+    <string name="exportSuccess">File exported successful</string>
+    <string name="myStories_str">My Stories</string>
+    <string name="profile_str">Profile</string>
+    <string name="title_str">Title</string>
+    <string name="published_date_str">Published Date</string>
+    <string name="addMovie_str">Add Movie</string>
+    <string name="text_str">Text</string>
+    <string name="favList_str">Favorite list</string>
+    <string name="watchList_str">Watchlist</string>
+    <string name="search_str">Search for movies...</string>
+    <string name="favStories_str">Favorite Stories</string>
+    <string name="logout_str">Logout</string>
+    <string name="save_str">Save</string>
+    <string name="cast_str">Cast</string>
+    <string name="unmatchedPass">Password and its confirmation do not match!</string>
+    <string name="invalidUrl">Email is not valid!</string>
+    <string name="emptyField">All fields are mandatory!</string>
+    <string name="preferenceError">Error in loading data!</string>
+    <string name="signInError">Username or password is not correct!</string>
+    <string name="signUpSuccess">Signed up successfully!</string>
+    <string name="signInSuccess">Signed in successfully!</string>
+    <string name="pickImage_str">Pick Image</string>
+    <string name="notImplemented">This option is not implemented yet!</string>
+    <string-array name="genres">
+        <item>Action</item>
+        <item>Musical</item>
+        <item>Documentary</item>
+        <item>Drama</item>
+        <item>Romance</item>
+        <item>Science-Fiction</item>
+        <item>Animation</item>
+    </string-array>
+    <string-array name="status">
+        <item>In production</item>
+        <item>Is playing</item>
+        <item>Released</item>
+    </string-array>
+    <!--Database errors -->
+    <string name="insert_movie">Movie added successfully.</string>
+    <string name="insert_movie_error">Failed to add new movie.</string>
+    <string name="update_movie">Movie updated successfully.</string>
+    <string name="update_movie_error">Failed to update movie.</string>
+    <string name="insert_watchlist">Watchlist added successfully.</string>
+    <string name="insert_watchlist_error">Failed to add new watchlist.</string>
+    <string name="insert_watchlist_exist">Movie already exists in watchlist.</string>
+    <string name="insert_favoritelist">Favorite added successfully.</string>
+    <string name="insert_favoritelist_error">Failed to add new favorite.</string>
+    <string name="insert_favoritelist_exist">Movie already exists in favorite list.</string>
+    <string name="insert_comment">Comment added successfully.</string>
+    <string name="insert_comment_error">Failed to add new comment.</string>
+    <string name="insert_movie_like">Movie liked.</string>
+    <string name="insert_movie_like_exist">Movie is already liked.</string>
+    <string name="insert_like_movie_error">Failed to like movie.</string>
+    <string name="insert_unlike_story">Story unliked.</string>
+    <string name="insert_unlike_story_error">Failed to unlike story.</string>
+    <string name="insert_user">User added successfully.</string>
+    <string name="insert_user_error">Failed to add new user.</string>
+    <string name="delete_movie_error">Failed to delete movie.</string>
+    <string name="delete_movie">Movie deleted.</string>
+    <string name="get_movie_error">Failed to load movies from db or db has no movies.</string>
+    <string name="get_watchlist_error">Failed to load watchlist from db or db has no watchlist.</string>
+    <string name="get_favlist_error">Failed to load favorite list from db or db has no favorite list.</string>
+    <string name="get_comment_error">Failed to load comments from db or the movie has no comments.</string>
+    <string name="get_user_error">Failed to load users from db or db has no users.</string>
+    <string name="get_favstory_error">Failed to load favorite stories from db or db has no favorite story.</string>
+
+    <string name="insert_import_error">Failed to add stories from import.</string>
+    <string name="network_connection_error">Error in network connection</string>
+    <string name="network_json_error">Error in network json</string>
+    <string name="network_general_error">Error in network general</string>
+    <string name="description">Description :</string>
+    <string name="year">Year :</string>
+    <string name="genre">Genre :</string>
+    <string name="rate">Rate :</string>
+    <string name="status">Status :</string>
+    <string name="casts">Casts :</string>
+    <string name="comments">Comments :</string>
+</resources>

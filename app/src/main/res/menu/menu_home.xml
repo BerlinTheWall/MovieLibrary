@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/favList"
+        android:icon="@drawable/ic_baseline_date_range_24"
+        android:title="@string/favList_str" />
+    <item android:id="@+id/watchList"
+        android:icon="@drawable/ic_baseline_date_range_24"
+        android:title="@string/watchList_str" />
+    <item android:id="@+id/logOut"
+        android:icon="@drawable/ic_baseline_date_range_24"
+        android:title="@string/logout_str" />
+</menu>
